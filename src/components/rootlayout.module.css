@@ -1,0 +1,18 @@
+/*None*/
+@media screen and (max-width: 575.98px) {
+  .navLinks {
+    font-size: 0.6rem;
+  }
+  .title {
+    font-size: 0.7rem;
+  }
+}
+
+.navLinks {
+  text-decoration: none;
+  color: #89878c;
+  padding-left: 0.5rem;
+}
+.icons {
+  color: #6936ff;
+}
