@@ -52,7 +52,11 @@ const Add = () => {
       alert("Please select category!");
     } else if (!imgInput.current.files[0]) {
       alert("Please upload images!");
-    } else {
+    }
+    else if (imgInput.current.files.length < 3) {
+      alert("Please upload 3 images!");
+    }
+    else {
       const formData = new FormData();
       formData.append("name", nameInput.current.value);
       formData.append("short_desc", shortDescInput.current.value);
