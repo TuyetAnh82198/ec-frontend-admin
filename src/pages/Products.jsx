@@ -151,7 +151,7 @@ const Products = () => {
                   border: "0.1rem dotted #e44b6a",
                 }}
               >
-                Xóa phần tử đã chọn
+                Delete selected products
               </Button>
             </div>
           )}
