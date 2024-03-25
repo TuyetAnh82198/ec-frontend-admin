@@ -38,6 +38,7 @@ ADMINAPP:
 Users can create account, create random password.
 An email will be sent to the successfully registered user.
 Input value validation.
+Filter the type of uploaded image files (jpg, jpeg, png). Product will not be added until uploaded images is enough.
 Only logged in users who is admin can add/update/delete (one or many, confirm first) products;
 view number of users, number of orders, earnings of month, and total earning;
 view latest transactions, and detail of a transation;
